@@ -29,6 +29,7 @@ A Spring Boot-based backend application to manage job listings, companies, and u
 ---
 
 ## 📁 Project Structure
+```
 firstjobapp/
 ├── src/
 │ ├── main/
@@ -42,21 +43,28 @@ firstjobapp/
 │ └── FirstjobappApplicationTests.java
 ├── pom.xml
 └── README.md
+```
 
 ## 🧪 API Endpoints (Sample)
 
 ### Company
-GET /api/company
-POST /api/company
-PUT /api/company/{id}
+```
+GET    /api/company
+POST   /api/company
+PUT    /api/company/{id}
 DELETE /api/company/{id}
+```
 
 ### Job
+```
 GET /api/job
 POST /api/job
 PUT /api/job/{id}
 DELETE /api/job/{id}
+```
 
 ### Review
+```
 GET /api/review
 POST /api/review
+```
